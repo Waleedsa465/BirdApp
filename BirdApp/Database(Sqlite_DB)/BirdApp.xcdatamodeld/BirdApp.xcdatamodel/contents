@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ExpiredBirdsDetails" representedClassName="ExpiredBirdsDetails" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="accuracy" optional="YES" attributeType="String"/>
+        <attribute name="birdId" optional="YES" attributeType="String"/>
+        <attribute name="birdSpecie" optional="YES" attributeType="String"/>
+        <attribute name="certificateNo" optional="YES" attributeType="String"/>
+        <attribute name="collection" optional="YES" attributeType="String"/>
+        <attribute name="datePicker" optional="YES" attributeType="String"/>
+        <attribute name="expiredDate" optional="YES" attributeType="String"/>
+        <attribute name="imageUpload" optional="YES" attributeType="String"/>
+        <attribute name="ownerName" optional="YES" attributeType="String"/>
+        <attribute name="sampleType" optional="YES" attributeType="String"/>
+        <attribute name="sexDetermination" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SoldBirdsDetails" representedClassName="SoldBirdsDetails" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="accuracy" optional="YES" attributeType="String"/>
+        <attribute name="birdID" optional="YES" attributeType="String"/>
+        <attribute name="birdSpecie" optional="YES" attributeType="String"/>
+        <attribute name="buyerName" optional="YES" attributeType="String"/>
+        <attribute name="buyerPhoneNumber" optional="YES" attributeType="String"/>
+        <attribute name="certificateNo" optional="YES" attributeType="String"/>
+        <attribute name="collection" optional="YES" attributeType="String"/>
+        <attribute name="ownerName" optional="YES" attributeType="String"/>
+        <attribute name="sampleType" optional="YES" attributeType="String"/>
+        <attribute name="sexDetermination" optional="YES" attributeType="String"/>
+        <attribute name="soldDate" optional="YES" attributeType="String"/>
+        <attribute name="uploadCurrentImage" optional="YES" attributeType="String"/>
+        <attribute name="uploadDate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UploadData" representedClassName="UploadData" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="accuracy" optional="YES" attributeType="String"/>
+        <attribute name="birdId" optional="YES" attributeType="String"/>
+        <attribute name="birdSpecie" optional="YES" attributeType="String"/>
+        <attribute name="certificateNo" optional="YES" attributeType="String"/>
+        <attribute name="collection" optional="YES" attributeType="String"/>
+        <attribute name="datePicker" optional="YES" attributeType="String"/>
+        <attribute name="imageUpload" optional="YES" attributeType="String"/>
+        <attribute name="ownerName" optional="YES" attributeType="String"/>
+        <attribute name="sampleType" optional="YES" attributeType="String"/>
+        <attribute name="sexDetermination" optional="YES" attributeType="String"/>
+    </entity>
+</model>
